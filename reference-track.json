@@ -1,0 +1,18 @@
+{
+  "challenge": {
+    "name": "just-search",
+    "schedule": [
+      {
+        "operation": {
+          "name": "term",
+          "operation-type": "search",
+          "param-source": "custom-term-param-source",         
+          "professions": ["mechanic", "physician", "nurse"] 
+        },
+        "warmup-iterations": 100,
+        "iterations": 100,
+        "target-throughput": 10
+      }
+    ]
+  }
+}
