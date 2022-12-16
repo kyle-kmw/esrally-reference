@@ -6,8 +6,7 @@
         "operation": {
           "name": "term",
           "operation-type": "search",
-          "param-source": "custom-term-param-source",         
-          "professions": ["mechanic", "physician", "nurse"] 
+          "param-source": "custom-term-param-source"          
         },
         "warmup-iterations": 100,
         "iterations": 100,
